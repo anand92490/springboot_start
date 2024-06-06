@@ -1,4 +1,5 @@
 package clientLogic;
+import java.util.Scanner;
 
 public class Client {
 // Main method is the client class that will print the messages
@@ -9,12 +10,21 @@ public class Client {
 		
 		Logic refvariable = new Logic();
 		refvariable.message();
+	
 		
 		Arguments arg = new Arguments(); 
 		
+	
+		Scanner input1 = new Scanner(System.in); // Creates scanner object
+		System.out.println("Enter the value for x: ");
+		int x = input1.nextInt();
 		
-		int x = 6650;
-		int y = 3330;
+		Scanner input2 = new Scanner(System.in); // Creates scanner object
+		System.out.println("Enter the value for y: ");
+		int y = input2.nextInt();
+		
+
+		
 		
 		int addVal = arg.add(x, y);
 		System.out.println(x + " + " + y + " is: " + addVal);

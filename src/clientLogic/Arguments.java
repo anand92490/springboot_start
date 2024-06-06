@@ -1,6 +1,8 @@
 package clientLogic;
 
+
 public class Arguments {
+
 
 	public int add(int i, int j) {
 		
@@ -21,6 +23,7 @@ public class Arguments {
 	
 	public double divide(double e, double f) {
 		double divide = e/f;
+		
 		
 		if(e == 0 || f == 0) {
 			System.out.println("The number cannot be divided by 0");

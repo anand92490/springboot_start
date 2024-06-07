@@ -4,13 +4,10 @@ import java.util.Scanner;
 public class Client {
 // Main method is the client class that will print the messages
 	
-
-	
 	public static void main(String[] args) {
 		
-		Logic refvariable = new Logic();
-		refvariable.message();
-	
+		Logic refVariable = new Logic();
+		refVariable.message();
 		
 		Arguments arg = new Arguments(); 
 		
@@ -70,11 +67,11 @@ public class Client {
 	}
 */
 
-		
-	/*  NOTES -
+	
+/*  NOTES -
 		*	primitive data types - byte, int, char, long, double, float, boolean 
 	 	*	Non - primitive data types = Arrays, Classes, Interfaces, String
 	    *	'String' is a non primitive data type. It is a predefined class. 
-	*/
+*/
 
 

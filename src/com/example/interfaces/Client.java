@@ -10,5 +10,9 @@ public class Client {
         b.firstMethod();
         b.secondMethod();
 
+        C c = new C();
+        c.m3();
+        c.m4();
+
     }
 }

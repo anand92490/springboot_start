@@ -25,7 +25,7 @@ public class LoopExample {
 
 
             */
-//while loop 
+//while loop
         int i = 0;   // initialize a variable
         while(i < 5){ // check the condition
             System.out.println(" i value " + i); // execute

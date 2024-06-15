@@ -3,18 +3,23 @@ import java.util.*;
 
 public class Client {
     public static void main(String args[]){
-        List list;
+        List<Integer> list;
 
         list = new ArrayList();
 
         list.add(1); // storing primitive type
-        list.add(6.5);
-        list.add('a');
-        list.add("anand");
+        list.add(6);
+        list.add(4);
+        list.add(2);
         list.add(5);
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i)); //a[i]
+        }
+
+        for(Integer l: list){
+            System.out.println(l + " for each");
+
         }
 
         list.remove(1);
@@ -24,6 +29,7 @@ public class Client {
         System.out.println(list);
 
        // list interface acts as the reference variable for the implementing classes
+
         List list1 = new Vector();
         List list2 = new ArrayList<Integer>();
 
@@ -51,6 +57,21 @@ public class Client {
 
 
         //We use hashSet if we don't want to have duplicates
+
+        List<Employee> empList = new LinkedList<>();
+
+        Employee e = new Employee(1, "Anand");
+        Employee e2 = new Employee(2, "Nikita");
+
+        empList.add(e);
+        empList.add(e2);
+
+        for(Employee empVar : empList){
+            empVar.print();
+        }
+
+
+
 
 
     }
